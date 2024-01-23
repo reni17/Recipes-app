@@ -21,7 +21,7 @@ function MainHeader() {
               <NavLink href="/meals">Browse meals</NavLink>
             </li>
             <li>
-              <NavLink href="/community">Browse meals</NavLink>
+              <NavLink href="/community">Community</NavLink>
             </li>
           </ul>
         </nav>

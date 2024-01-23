@@ -10,9 +10,7 @@ export default function NavLink({ href, children }) {
     <Link
       href={href}
       className={
-        path.startsWith(href)
-          ? `${classes.active} ${classes.link}`
-          : classes.link
+        path === href ? `${classes.active} ${classes.link}` : classes.link
       }
     >
       {children}
